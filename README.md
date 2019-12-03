@@ -42,8 +42,8 @@ Tested only Ubuntu 18.04, so it can be broken other version of Linux.
 
 2. Clone the project
     ```
-    $ git clone
-    $ cd project 
+    $ git clone https://github.com/StdCarrot/iamovpn.git
+    $ cd iamovpn 
     ```
 
 3. Setup config
