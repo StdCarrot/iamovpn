@@ -1,0 +1,17 @@
+{
+  "host": "0.0.0.0",
+  "port": 8080,
+  "db_url": "sqlite:///iamovpn.sqlite",
+  "secret": <YOU MUST SET RANDOM STRING HERE>,
+  "logging": {
+    "level": "INFO"
+  },
+  "openvpn": {
+    "host": <YOUR SERVER IP TO CONNECT CLIENT>,
+    "path": "/etc/openvpn",
+    "network": "172.16.0.0",
+    "netmask": "255.255.0.0",
+    "redirect_gateway": true,
+    "routes": []
+  }
+}

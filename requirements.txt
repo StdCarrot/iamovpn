@@ -1,0 +1,10 @@
+sqlalchemy
+flask
+docopt
+bcrypt
+flask-restplus
+wget
+ipy
+python-dateutil
+netifaces
+flask-cors
