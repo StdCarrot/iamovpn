@@ -48,7 +48,7 @@ Tested only Ubuntu 18.04, so it can be broken other version of Linux.
 
 3. Setup config
     ```
-    $ cp config.json.dist to config.json
+    $ cp config.json.dist config.json
     ```
     You must change `secret` and `openvpn.host`.
     
