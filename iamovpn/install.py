@@ -73,12 +73,12 @@ def install_rsa_keys(config):
     else:
         print('Download easy-rsa')
         wget.download(
-            url='https://github.com/OpenVPN/easy-rsa/releases/download/v3.0.6/EasyRSA-unix-v3.0.6.tgz',
+            url='https://github.com/OpenVPN/easy-rsa/releases/download/v3.1.1/EasyRSA-3.1.1.tgz',
             out=os.path.join(ovpn_path, 'easy-rsa.tgz')
         )
         shutil.unpack_archive(ez_rsa_tgz, ovpn_path)
         shutil.move(
-            os.path.join(ovpn_path, 'EasyRSA-v3.0.6'),
+            os.path.join(ovpn_path, 'EasyRSA-3.1.1'),
             ez_rsa_path
         )
 
